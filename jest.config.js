@@ -7,6 +7,7 @@ const createJestConfig = nextJest({
 /** @type {import('jest').Config} */
 const customJestConfig = {
   moduleDirectories: ['node_modules', '<rootDir>/'],
+  modulePathIgnorePatterns: ['node_modules', 'jest-test-results.json'],
   testEnvironment: 'jest-environment-jsdom',
   collectCoverageFrom: [
     './pages/**/*.{js,ts,jsx,tsx}',

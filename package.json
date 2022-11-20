@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test:with-output": "jest --json --outputFile=.jest-test-results.json",
     "test": "jest --coverage --ci",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -27,6 +28,7 @@
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-jest": "^6.5.13",
     "@storybook/addon-links": "^6.5.13",
     "@storybook/builder-webpack5": "^6.5.13",
     "@storybook/manager-webpack5": "^6.5.13",
