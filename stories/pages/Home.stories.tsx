@@ -1,5 +1,4 @@
 import Home from '../../pages/index'
-import '../../styles/Home.module.css'
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 
 export default {
